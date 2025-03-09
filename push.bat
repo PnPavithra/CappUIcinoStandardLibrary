@@ -1,3 +1,3 @@
 git add .
-git commit -m "Update_$(date '+%Y-%m-%d %H:%M:%S')"
+git commit -m "Update_$(date '+%m-%H:%S')"
 git push
