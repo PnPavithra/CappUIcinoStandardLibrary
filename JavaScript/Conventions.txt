@@ -1,11 +1,19 @@
 Annotations:
 
+@variable:
+    - Needed if the entity has to be classified as a variable
 
+@function:
+    - Needed if the entity has to be classified as a function.
 
 @param: <parameter_name>:<type>:<display_name>
     - All parameters need not be covered with @param
     - <display_name> and <type> is optional for @param
-    
+
+@return: <type>:<display_name>
+    - Entirely optional
+    - If used, display name is mandatory
+    - void return will be assumed if not used
 
 
 displayName: <name>

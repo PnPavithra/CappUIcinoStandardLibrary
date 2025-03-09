@@ -3,6 +3,10 @@ class INavigator
     static navigationStack = [];
     static navigationStackPointer = -1;
 
+    /*
+        @function
+        @param: page: string
+    */
     static openPage(page)
     {
         INavigator.navigationStack.push(page);

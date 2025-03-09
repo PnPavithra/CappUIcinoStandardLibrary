@@ -5,68 +5,84 @@ export class IMathFunctions
 
     }
     
-    static abs(value)
-    {
-        return Math.abs(value);
-    }
+    /*
+        @function
+        @param: value: float
+        @return: float: Return Value
+    */
+    static abs = Math.abs;
 
-    static squareRoot(value)
-    {
-        return Math.sqrt(value);
-    }
+    /*
+        @function
+        @param: value: float
+    */
+    static squareRoot = Math.sqrt;
+    
+    /*
+        @function
+        @param: base: float
+        @param: power: float
+    */
+    static power = Math.pow;
 
-    static power(base, power)
-    {
-        return Math.pow(base, power);
-    }
+    /*
+        @function
+        @param: value: float
+    */
+    static logarithm = Math.log;
 
-    static logarithm(value)
-    {
-        return Math.log(value);
-    }
+    /*
+        @function
+        @param: value: float
+    */
+    static sine = Math.sin;
+    
+    /*
+        @function
+        @param: value: float
+    */
+    static cosine = Math.cos;
+    
+    /*
+        @function
+        @param: value: float
+    */
+    static tangent = Math.tan;
+    /*
+        @function
+        @param: value: float
+    */
+    static inverseSine = Math.asin;
+    
+    /*
+        @function
+        @param: value: float
+    */
+    static inverseCosine = Math.acos;
+    
+    /*
+        @function
+        @param: value: float
+    */
+    static inverseTangent = Math.atan;
+    
 
-    static sine(value)
-    {
-        return Math.sin(value);
-    }
-
-    static cosine(value)
-    {
-        return Math.cos(value);
-    }
-
-    static tangent(value)
-    {
-        return Math.tan(value);
-    }
-
-    static inverseSine(value)
-    {
-        return Math.asin(value);
-    }
-
-    static inverseCosine(value)
-    {
-        return Math.acos(value);
-    }
-
-    static inverseTangent(value)
-    {
-        return Math.atan(value);
-    }
-
-    static floor(value)
-    {
-        return Math.floor(value);
-    }
-
-    static ceil(value)
-    {
-        return Math.ceil(value);
-    }
-
-    static round(value)
-    {
-        return Math.round(value);
-    }
+    /*
+        @function
+        @param: value: float
+    */
+    static floor = Math.floor;
+    
+    /*
+        @function
+        @param: value: float
+    */
+    static ceil = Math.ceil;
+    
+    /*
+        @function
+        @param: value: float
+    */
+    static round = Math.round;
+    
 }

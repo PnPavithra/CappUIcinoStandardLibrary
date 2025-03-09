@@ -17,16 +17,29 @@ export class ICoreFunctions extends IModule
         window.printArea = this.printArea = printArea;
     }
 
+    /*
+        @function
+        @param: stringToPrint: string
+    */
     static consoleLog(stringToPrint)
     {
         console.log(stringToPrint);
     }
 
+    /*
+        @function
+        @param: stringToPrint: string
+        @param: duration: float
+    */
     static printString(stringToPrint, duration)
     {
         this.printArea.appendElement(stringToPrint, duration);
     }
 
+    /*
+        @function
+        @param: durationInSeconds: float
+    */
     static async wait(durationInSeconds)
     {
         await new Promise(resolve => setTimeout(resolve, durationInSeconds*1000));
