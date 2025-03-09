@@ -1,7 +1,16 @@
 Annotations:
 
+
+
 @param: <parameter_name>:<type>:<display_name>
+    - All parameters need not be covered with @param
+    - <display_name> and <type> is optional for @param
+    
+
+
 displayName: <name>
+    - Entirely optional
+    - If not used, the display name will be the function's name in title case.
 
 Types:
 int
