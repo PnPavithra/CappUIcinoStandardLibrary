@@ -1,0 +1,26 @@
+Annotations:
+
+@param: <parameter_name>:<type>:<display_name>
+displayName: <name>
+
+Types:
+int
+float
+bool
+string
+object
+
+
+Example:
+
+/*
+    displayName: Test Func
+    @param: num1: float: N
+    @param: str1: string
+    @param: obj1: object|<class_name>
+*/
+function testFunc(num1, str1, obj1, arg)
+{
+
+}
+
