@@ -13,6 +13,10 @@ class INavigator
         INavigator.navigationStackPointer++;
     }
 
+    /*
+        @function
+        @param:
+    */
     static goBack()
     {
         if (INavigator.canGoBack()) 
@@ -21,6 +25,10 @@ class INavigator
         }
     }
 
+    /*
+        @function
+        @param:
+    */
     static goNext()
     {
         if (INavigator.canGoNext()) 
@@ -29,6 +37,10 @@ class INavigator
         }
     }
 
+    /*
+        @function
+        @param: page: string
+    */
     static clearNavigationAndOpenPage(page)
     {
         INavigator.navigationStack.length = 0;
@@ -37,6 +49,11 @@ class INavigator
         
     }
 
+    /*
+        @function
+        @param:
+        @return: bool: Return Value
+    */
     static canGoBack()
     {
         if(INavigator.navigationStackPointer > 0)
@@ -47,7 +64,11 @@ class INavigator
 
     }
 
-    
+    /*
+        @function
+        @param:
+        @return: bool: Return Value
+    */
     static canGoNext()
     {
         if(INavigator.navigationStackPointer < (INavigator.navigationStack.length - 1))
