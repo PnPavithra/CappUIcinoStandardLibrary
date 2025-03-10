@@ -29,7 +29,7 @@ export class IRandomClass
             @function
             @param: min: float
             @param: max: float
-            @return float: Return Vlaue
+            @return float: Return Value
         */
         generateFloat(min, max) 
         {
