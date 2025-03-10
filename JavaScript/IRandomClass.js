@@ -14,7 +14,6 @@ export class IRandomClass
 
         /*
             @function
-            @param:
             @return: float: Return Value
         */
         next() 
@@ -50,7 +49,6 @@ export class IRandomClass
 
         /*
             @function
-            @param:
             @return: bool: Return Value
         */
         generateBoolean() 

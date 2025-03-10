@@ -15,7 +15,6 @@ class INavigator
 
     /*
         @function
-        @param:
     */
     static goBack()
     {
@@ -27,7 +26,6 @@ class INavigator
 
     /*
         @function
-        @param:
     */
     static goNext()
     {
@@ -51,7 +49,6 @@ class INavigator
 
     /*
         @function
-        @param:
         @return: bool: Return Value
     */
     static canGoBack()
@@ -66,7 +63,6 @@ class INavigator
 
     /*
         @function
-        @param:
         @return: bool: Return Value
     */
     static canGoNext()

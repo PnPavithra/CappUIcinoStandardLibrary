@@ -29,7 +29,6 @@ export class IRandomFunctions
 
     /*
         @function
-        @param:
         @return: bool: Return Value
     */
     static randomBoolean()
@@ -40,7 +39,6 @@ export class IRandomFunctions
 
     /*
         @function
-        @param:
     */
     static initializeModule()
     {
