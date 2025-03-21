@@ -45,6 +45,10 @@ export class ICoreFunctions extends IModule
         await new Promise(resolve => setTimeout(resolve, durationInSeconds*1000));
     }
 
+    static executeJavascript(code)
+    {
+        eval(code);
+    }
 }
 
 ICoreFunctions.initialize();
