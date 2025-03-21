@@ -47,7 +47,14 @@ export class ICoreFunctions extends IModule
 
     static executeJavascript(code)
     {
-        eval(code);
+        try
+        {
+            eval(code);
+        }
+        catch(Expection)
+        {
+            //ToDO
+        }
     }
 }
 
