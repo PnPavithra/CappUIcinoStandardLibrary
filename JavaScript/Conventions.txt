@@ -23,6 +23,10 @@ displayName: <name>
     - Entirely optional
     - If not used, the display name will be the function's name in title case.
 
+alias: <alternate name1>, <alternate name2>
+    - Optional
+    - Comma separated
+
 Types:
 int
 float
