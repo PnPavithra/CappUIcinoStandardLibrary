@@ -23,8 +23,8 @@ displayName: <name>
     - Entirely optional
     - If not used, the display name will be the function's name in title case.
 
-alias: <alternate name1>, <alternate name2>
-    - Optional
+aliases: <alias1>, <alias2>
+    - Entirely Optional
     - Comma separated
 
 Types:
