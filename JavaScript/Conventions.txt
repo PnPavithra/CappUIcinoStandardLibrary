@@ -1,5 +1,8 @@
 Annotations:
 
+@class:
+    - Needed if an entity has to be classified as a class
+
 @variable:
     - Needed if the entity has to be classified as a variable
 
