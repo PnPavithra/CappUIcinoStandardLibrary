@@ -1,3 +1,6 @@
+/*
+    @class
+*/
 export class IStringFunctions
 {
     static initialize()

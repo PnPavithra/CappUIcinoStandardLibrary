@@ -1,5 +1,8 @@
 import { IRandomClass } from "./IRandomClass.js"
 
+/*
+    @class
+*/
 export class IRandomFunctions
 {
     static globalRandomObject = null;

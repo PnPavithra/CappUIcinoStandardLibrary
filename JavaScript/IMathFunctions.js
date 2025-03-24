@@ -1,3 +1,6 @@
+/*
+    @class
+*/
 export class IMathFunctions
 {
     static initialize()

@@ -1,6 +1,9 @@
 import { PrintArea, PrintedElement } from "./CoreFunctionsPrerequisites.js";
 import { IModule } from "./IModule.js";
 
+/*
+    @class
+*/
 export class ICoreFunctions extends IModule
 {
     static initialize()

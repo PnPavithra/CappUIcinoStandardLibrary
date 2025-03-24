@@ -23,16 +23,35 @@ displayName: <name>
     - Entirely optional
     - If not used, the display name will be the function's name in title case.
 
-aliases: <alias1>, <alias2>
-    - Entirely Optional
+aliases: <alias1>, <alias2>..
+    - Entirely optional
     - Comma separated
 
+important: 
+    - Entirely optional
+    - No RHS value
+
+flags: <flag1>, <flag2>...
+    - Entirely optional
+    - Comma separated
+
+hintText: <text>
+    - Entirely optional
+    - All seperators are ignored
+
+
+
 Types:
-int
-float
-bool
-string
-object
+    int
+    float
+    bool
+    string
+    object
+
+Flags:
+    debugonly
+    pure
+
 
 
 Example:
